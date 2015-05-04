@@ -1,0 +1,25 @@
+
+
+
+
+/** results **/
+#results { display: block; }
+
+#results .v { display: block; float: left; position: relative; width: 225px; margin-right: 12px; margin-bottom: 22px; padding-bottom: 10px; }
+
+#results .v a.wrapping { display: block; width: 225px; }
+
+#results .v .details { display: block; }
+
+#results .v .details img.userpic { float: left; position: relative; padding: 2px; background: #fff; top: -2px; left: -7px; }
+
+#results .v .details h3 { display: block; position: relative; font-size: 1.55em; white-space: nowrap; overflow: hidden; left: -6px; margin-bottom: 2px; color: #737373; }
+#results .v .details .user { display: block; font-size: 1.1em; color: #333; left: -4px; white-space: nowrap; overflow: hidden; }
+#results .v .details .user a { font-weight: bold; }
+
+/** clearfix **/
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+ 
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }

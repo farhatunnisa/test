@@ -1,0 +1,639 @@
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+}
+ @media (max-width: 1080px) {
+.menu nav li a {
+	padding: 14px 22px;
+}
+.MenuDiv nav li a {
+	padding: 15px 20px;
+}
+.pageWidth {
+	width: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.blogStyle dt {
+	width: 15%;
+}
+ @media (max-width: 980px) {
+.ms-layer.bold-title {
+ font-size: 18px !important;
+ line-height: 100% !important;
+}
+.ms-layer.normal-desc {
+ font-size: 16px !important;
+ line-height: 100% !important;
+}
+}
+ @media (min-width: 768px) and (max-width: 979px) {
+.menu nav li a {
+ padding: 14px 16px;
+}
+.MenuDiv nav li a {
+ padding: 14px;
+}
+.findCourse ul li {
+ width: 21%;
+ padding: 0;
+ padding-left: 2%;
+}
+.findCourse span {
+ width: 90%;
+ text-align: left;
+ padding: 0;
+ padding-bottom: 3px;
+}
+.findCourse input, .findCourse select {
+ width: 96%;
+}
+.findCourse h2 {
+ padding-top: 20px;
+}
+.findCourse .searchBtn {
+ margin-top: 16px;
+}
+.upcomingCourses ul:last-child {
+ margin-top: 10px;
+}
+.footSec1 {
+ width: 100%;
+}
+.footSec2 {
+ width: 100%;
+ margin: 15px 0 0;
+}
+.tweets {
+ margin-left: 33px;
+}
+.accountList h2, .sidebar .userAccount {
+ margin-left: 12px;
+}
+.accountList li a {
+ padding-left: 12px;
+}
+.courseLinks li span {
+ width: 93%;
+}
+}
+ @media (max-width: 979px) {
+dl.multi {
+ margin-left: 0;
+ padding: 1%;
+ width: 98%;
+}
+dl.multi dt {
+ width:auto;
+}
+dl.multi {
+ min-height:inherit;
+}
+}
+ @media (max-width: 860px) {
+.menu nav li a {
+ padding: 14px 10px;
+}
+.upcomingCourses ul:last-child {
+ margin-top: 6px;
+}
+}
+ @media (max-width: 800px) {
+.contentLeft {
+ width: 100%;
+}
+.aside {
+ margin: 0;
+ margin-top: 20px;
+ width: 99.6%;
+}
+.blogLeft {
+ width: 100%;
+}
+.blogAside dt {
+ width: auto;
+}
+.courseLeft {
+ width: 100%;
+ margin-bottom:15px;
+}
+.courseRight {
+ margin-left:0;
+ width: 100%;
+}
+}
+ @media (max-width: 798px) {
+.MenuDiv nav li a {
+ padding: 14px 8px;
+}
+.logo-small {
+ padding-right: 20px;
+}
+.findCourse ul li {
+ width: 19.5%;
+}
+}
+ @media (max-width: 767px) {
+h1 {
+ font-size: 18px;
+}
+h2 {
+ font-size: 17px;
+}
+h3 {
+ font-size: 15px;
+}
+.menu {
+ display: none;
+}
+.sticky-navigation {
+ position: relative !important;
+}
+.logo-small {
+ display: none !important;
+}
+.headLeft {
+ margin: 15px 0 0;
+}
+.topPlugins {
+ margin: 0;
+ margin-bottom:20px;
+ min-height:110px;
+}
+.topSection {
+ padding: 15px 0;
+}
+.headRight {
+ margin: 38px 0 0;
+}
+.navigation, .mean-bar i {
+ display: none;
+}
+.ms-layer.bold-title {
+ font-size: 16px !important;
+}
+.ms-layer.normal-desc {
+ font-size: 14px !important;
+}
+.ms-layer.bold-desc {
+ top: 30px !important;
+ width: 90%;
+}
+.ms-layer.para-desc {
+ top: 60px !important;
+ width: 90%;
+}
+.ms-skin-black-2 .ms-bullets.ms-dir-h {
+ display: none;
+}
+.findCourse ul li, .findCourse ul li:first-child {
+ width: 96%;
+ padding: 0 2%;
+}
+.findCourse span {
+ text-align: left;
+ width: 96%;
+ padding: 0;
+ padding-bottom: 5px;
+}
+.findCourse ul li {
+ margin-bottom: 16px;
+}
+.findCourse input, .findCourse select {
+ width: 96%;
+}
+.findCourse select {
+ width: 100%;
+}
+.upcomingCourses ul:last-child {
+ margin: 0;
+}
+.upcomingCourses li {
+ min-height: inherit;
+ width: 95.6%;
+ padding: 2%;
+ margin-bottom: 15px;
+ float: left;
+}
+.leftContent, .rightContent {
+ margin: 0;
+ width: 100%;
+}
+.leftContent {
+ margin-bottom: 18px;
+}
+.news {
+ width: 100%;
+ margin-bottom: 20px;
+}
+.testmonials {
+ margin-left: 0;
+ width: 100%;
+}
+.homeBlog ul li, .homeBlog ul li:first-child {
+ width: 100%;
+ padding-left: 0;
+ border: 0;
+ min-height: inherit;
+ padding: 15px 0;
+}
+.homeBlog ul li {
+ border-top: 1px solid #eaeaea;
+}
+.homeBlog ul li:first-child {
+ border: 0;
+}
+.homeBlog ul li div.blogInfo {
+ width: 85%;
+}
+.aboutCont {
+ width: 100%;
+ margin-bottom: 15px;
+}
+.updates {
+ margin-left: 0;
+ width: 100%;
+}
+.footSec1 {
+ float: left;
+ width: 100%;
+ overflow: hidden;
+}
+.footSec2 {
+ display: none;
+}
+.titleSection h1, .bredCrumb {
+ float: left;
+ width: 100%;
+}
+.bredCrumb ul {
+ float: left;
+}
+.titlePos .titleAlign {
+ height: 100px;
+}
+.regsterDiv ul li {
+ width: 100%;
+ margin-left: 0;
+}
+.regInfo ul li:first-child, .regInfo ul li {
+ margin-left: 0;
+ margin-bottom: 10px;
+ width: 95.6%;
+ min-height: inherit;
+}
+.regInfo ul {
+ margin-bottom: 0;
+}
+#steps li {
+ width: 25%;
+}
+#steps li span {
+ line-height: 17px;
+ font-size: 15px;
+}
+.geninTouch {
+ width: 100%;
+ margin-bottom: 20px;
+}
+.contactAdd {
+ width: 46%;
+ padding: 0;
+ padding-left: 3%;
+}
+.map {
+ width: 50%;
+}
+.aboutInfo section {
+ float: left;
+ width: 100%;
+ margin-left: 0;
+}
+.aboutInfo section:first-child {
+ margin-left: 0;
+ margin-bottom: 15px;
+}
+#SecondMenu {
+ display: block;
+}
+#SecondMenu ul {
+ float: left;
+ margin: 0 auto;
+ width: 26%;
+}
+#SecondMenu ul.accountBdr {
+ width: 0%;
+}
+#SecondMenu .accountBdr li {
+ border-left: 1px solid #e7e7e7;
+ border-right: 1px solid #FFF;
+ border-top: 0;
+ border-bottom: 0;
+ min-height: 180px;
+}
+.accountList h2 {
+ padding-top: 6px;
+ margin-left: 0;
+}
+#SecondMenu .accountList li {
+ padding-bottom: 16px;
+}
+#SecondMenu .userAccount li a span {
+ font-size: 13px;
+}
+.dashboardInfo {
+ border: 0;
+ width: 100%;
+ min-height: 300px;
+ padding-left: 0;
+}
+.dashboard {
+ background: none;
+}
+
+/* ============== responsive table ===============*/
+table.responsive {
+margin-bottom: 0;
+}
+ .pinned {
+position: absolute;
+left: 0;
+top: 0;
+background: #fff;
+width: 35%;
+overflow: hidden;
+overflow-x: scroll;
+border-right: 1px solid #f0f0f0;
+border-left: 1px solid #f0f0f0;
+height:100%;
+}
+ .pinned table {
+border-right: none;
+border-left: none;
+width: 100%;
+}
+ .pinned table th, .pinned table td {
+white-space: nowrap;
+}
+ .pinned td:last-child {
+border-bottom: 0;
+}
+ div.table-wrapper {
+position: relative;
+margin-bottom: 20px;
+overflow: hidden;
+border-right: 1px solid #f0f0f0;
+}
+ div.table-wrapper div.scrollable {
+margin-left: 35%;
+}
+ div.table-wrapper div.scrollable {
+overflow: scroll;
+overflow-y: hidden;
+}
+ table.responsive td, table.responsive th {
+position: relative;
+white-space: nowrap;
+overflow: hidden;
+}
+ table.responsive th:first-child, table.responsive td:first-child, table.responsive td:first-child, table.responsive.pinned td {
+display: none;
+}
+/* ============== /responsive table ===============*/
+}
+ @media (max-width: 640px) {
+ .facDetails section {
+ width: 48%;
+}
+}
+ @media (max-width: 639px) {
+.headRight .btn span {
+ display: none;
+}
+.headRight .btn {
+ min-width: inherit;
+ text-align: center;
+ padding: 8px 12px;
+}
+.headRight .btn i {
+ font-size: 18px;
+ padding: 0;
+}
+.ms-layer.bold-title {
+ font-size: 14px !important;
+}
+.ms-layer.normal-desc {
+ font-size: 12px !important;
+}
+.ms-layer.more-link {
+ display: none;
+}
+.homeBlog ul li div.blogInfo {
+ width: 80%;
+}
+.homeBlog dt, .homeBlog dd {
+ width: 100%;
+ margin: 0;
+}
+.homeBlog dt {
+ margin-bottom: 8px;
+}
+.contactInfo {
+ width: 100%;
+}
+.contact {
+ margin: 15px 0 0;
+ width: 100%;
+}
+.footerBot p {
+ width: 100%;
+}
+.footerBot a {
+ float: left;
+ margin: 10px 0 0;
+}
+.loginForm {
+ margin-left: -170px;
+ width: 210px;
+}
+.contactAdd {
+ width: 100%;
+ padding: 0;
+ padding-left: 0;
+ margin-bottom: 20px;
+}
+.map {
+ width: 100%;
+}
+.contactForm li div:first-child, .contactForm li div {
+ float: left;
+ width: 100%;
+}
+.contactForm li .captcha label {
+ display: none;
+}
+.imgLeft, .imgRight {
+ display: block;
+ float: none;
+ margin: 10px auto 15px;
+ text-align: center;
+}
+a.dropdown-toggle span {
+ display: none;
+}
+a.dropdown-toggle img {
+ margin-right: 2px;
+}
+.headRight {
+ margin: 32px 0 0;
+}
+.hoverDiv .moreContent i {
+ width:22px;
+ height:22px;
+ line-height:22px;
+ font-size:13px;
+}
+.gallery > li img {
+ width: 100%;
+ height: auto;
+}
+dl.single {
+ width:96%;
+ padding:2%;
+}
+}
+ @media (max-width: 480px) {
+.findCourse ul {
+ padding: 12px 2%;
+}
+.gallery li {
+ width:48%;
+ margin-left:1.5%;
+ margin-bottom:1.5%;
+}
+dl.multi dt, dl.single dt {
+ width:30%;
+}
+ dl.single dd {
+ width: 67%;
+}
+.facDetails section {
+ width: 98%;
+ margin-bottom:18px;
+}
+}
+ @media (max-width: 478px) {
+.ms-layer.bold-desc {
+ top: 15px !important;
+}
+.ms-layer.para-desc {
+ top: 55px !important;
+}
+.upcomingCourses li div.date {
+ width: 100%;
+}
+.upcomingCourses li div.courseDetails {
+ width: 100%;
+ padding: 10px 0 0;
+}
+.upcomingCourses li {
+ width: 95.5%;
+ padding: 2%;
+}
+.homeBlog ul li div.blogInfo {
+ width: 75%;
+}
+.aboutCont {
+ display: none;
+}
+.regsterDiv ul li div:first-child, .regsterDiv ul li div {
+ padding-left: 0;
+ padding-top: 4px;
+ width: 100%;
+}
+.regsterDiv ul li div:first-child {
+ display: block;
+ height: auto;
+}
+.regsterDiv ul li {
+ margin-bottom: 12px;
+}
+.regInfo ul li:first-child, .regInfo ul li {
+ width: 95.4%;
+}
+#steps i {
+ border-width: 2px;
+ font-size: 15px;
+ height: 30px;
+ line-height: 30px;
+ width: 30px;
+}
+#steps li span {
+ font-size: 13px;
+ line-height: 15px;
+}
+#steps li strong {
+ top: 22%;
+ height: 3px;
+}
+.blogAside img {
+ width: 90px;
+ height: auto;
+}
+}
+ @media (max-width: 438px) {
+.headRight {
+ margin: 28px 0 0;
+}
+#SecondMenu ul.userAccount {
+ display: none !important;
+}
+#SecondMenu ul {
+ width: 42%;
+}
+.acoountBdrChild {
+ display: none !important;
+}
+#SecondMenu .accountBdr li {
+ min-height: 160px;
+}
+#SecondMenu .mean-nav {
+ width: 99.5%;
+}
+.courseFeeDetails li {
+ display:block;
+ float:none;
+}
+}
+ @media (max-width: 360px) {
+.homeBlog ul li div.blogInfo {
+ width: 70%;
+}
+.headRight {
+ margin: 20px 0 0;
+}
+}
+ @media (max-width: 358px) {
+#steps li span {
+ font-size: 12px;
+ line-height: 14px;
+}
+.headRight {
+ margin: 18x 0 0;
+}
+}
+ @media (max-width: 318px) {
+.upcomingCourses li {
+ width: 95%;
+}
+input.textBox, select.selectBox, input.fileBox {
+ width: 97%;
+}
+.socialIcons {
+ width: 100%;
+ float: left;
+ margin-top: 8px;
+}
+.benfits li span {
+ width: 75%;
+}
+}

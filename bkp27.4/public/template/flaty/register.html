@@ -1,0 +1,705 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>American Aesthetic Association, Medicine Board Training Europe</title>
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" >
+<link rel="stylesheet" href="css/ameriaa.css" type="text/css" />
+<!--[if gte IE 7]>
+<script type="text/javascript" src="js/html5shiv.js"></script>
+<link rel="stylesheet" href="css/fonts-ie7.css">
+<link rel="stylesheet" href="css/ie.css">
+<![endif]-->
+<link rel="stylesheet" href="css/ameriaaresponsive.css" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+</head>
+
+<body>
+<div class="wrapper"> 
+  <!-- header -->
+  <header>
+    <div class="topSection">
+      <div class="pageWidth">
+        <div class="headLeft wow fadeInUp animated"><a href="index.html"><img src="images/logo.png" alt="logo" title="logo -  home" /></a></div>
+        <div class="headRight wow fadeInDown animated">
+          <ul>
+            <li>
+              <button type="submit" value="" class="btn btnBlue dropdown-toggle"><i class="icon-lock"></i><span>Login</span></button>
+              <div class="loginForm"> <span class="arrowUp"></span>
+                <form name="login" id="login">
+                  <ul>
+                    <li>
+                      <input type="text" placeholder="Username" name="username" id="username" />
+                    </li>
+                    <li>
+                      <input type="password" placeholder="Password" name="password" id="password" />
+                    </li>
+                  </ul>
+                  <dl>
+                    <dt>
+                      <button type="submit" value="" class="btn btnBlue">Submit</button>
+                    </dt>
+                    <dd><a href="javascript:void(0)">Forgot&nbsp;Password?</a></dd>
+                  </dl>
+                  <div class="clear"></div>
+                </form>
+              </div>
+            </li>
+            <li>
+              <button type="submit" value="" class="btn btnCharcol" onClick="window.location='register.html'"><i class="icon-user"></i><span>Register</span></button>
+            </li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <!-- /topSection -->
+    <div class="navigation">
+      <div class="navigationInner">
+        <div class="pageWidth">
+          <div class="sticky-navigation">
+            <div class="menu">
+              <div class="pageWidth">
+                <nav> <span class="logo-small"><a href="index.html"><img src="images/logo-small.png" alt="logo" title="Logo - Home" /></a></span>
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="javascript:void(0)">About Us <i class="icon-angle-down"></i></a>
+                      <ul class="submenu">
+                        <li><a href="javascript:void(0)">Partners</a></li>
+                        <li><a href="javascript:void(0)">News</a></li>
+                        <li><a href="javascript:void(0)">Testimonials</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="javascript:void(0)">Aesthetic Courses</a></li>
+                    <li><a href="javascript:void(0)">Membership</a></li>
+                    <li><a href="javascript:void(0)">Faculty</a></li>
+                    <li><a href="javascript:void(0)">Gallery</a></li>
+                    <li><a href="javascript:void(0)">Blog</a></li>
+                    <li><a href="javascript:void(0)">Contact Us</a></li>
+                  </ul>
+                  <div class="clear"></div>
+                </nav>
+              </div>
+            </div>
+            <!-- menu div end --> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- navigation -->
+    <div class="clear"></div>
+  </header>
+  <div class="container">
+    <div class="titleSection parallax register">
+      <div class="titlePos">
+        <div class="titleAlign">
+          <div class="pageWidth">
+            <div class="mask"></div>
+            <h1 class="wow fadeInLeft animated">Member Registration</h1>
+            <div class="bredCrumb wow fadeInRight animated">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="page-selection">Register</a></li>
+              </ul>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /titleSection -->
+    <div class="innerContent">
+      <div class="pageWidth">
+        <div class="registration">
+          <form id="SignupForm">
+            <ul id="steps">
+              <li id="stepDesc0"> <i class="icon-user"></i> <span>Personal Information</span> <strong></strong> </li>
+              <li id="stepDesc1"> <i class="icon-group"></i> <span>Professional Information</span> <strong></strong> </li>
+              <li id="stepDesc2"><i class="icon-file-text-alt"></i><span>Registration Information</span><strong></strong></li>
+              <li id="stepDesc3"><i class="icon-credit-card"></i><span>Payment</span><strong></strong></li>
+            </ul>
+            <div class="hrLine"><img src="images/inner/hr-line.png" alt="hr-line" /></div>
+            <div class="displayDiv">
+              <div class="title"><i class="icon-user"></i>Personal Information</div>
+              <div class="regsterDiv">
+                <ul>
+                  <li>
+                    <div>Title<span>*</span></div>
+                    <div>
+                      <select class="selectBox" id="title" name="title">
+                        <option>Dr.</option>
+                        <option>Miss.</option>
+                        <option>Mrs.</option>
+                        <option>Mr.</option>
+                      </select>
+                    </div>
+                  </li>
+                  <li>
+                    <div>First Name<span>*</span></div>
+                    <div>
+                      <input type="text" class="textBox" id="firstname" name="firstname"/>
+                    </div>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <div>Middle Name</div>
+                    <div>
+                      <input type="text" class="textBox" id="mname" name="mname" />
+                    </div>
+                  </li>
+                  <li>
+                    <div>Family Name<span>*</span></div>
+                    <div>
+                      <input type="text" class="textBox" id="fname" name="fname" />
+                    </div>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <div>Gender</div>
+                    <div>
+                      <select class="selectBox" id="gender" name="gender">
+                        <option>Male</option>
+                        <option>Female.</option>
+                      </select>
+                    </div>
+                  </li>
+                  <li>
+                    <div>Street Address<span>*</span></div>
+                    <div>
+                      <input type="text" class="textBox" id="saddress" name="saddress" />
+                    </div>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <div>State</div>
+                    <div>
+                      <input type="text" class="textBox" id="state" name="state" />
+                    </div>
+                  </li>
+                  <li>
+                    <div>City<span>*</span></div>
+                    <div>
+                      <input type="text" class="textBox" id="city" name="city" />
+                    </div>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <div>Zip Code<span>*</span></div>
+                    <div>
+                      <input type="text" class="textBox" id="zipcode" name="zipcode" />
+                    </div>
+                  </li>
+                  <li>
+                    <div>Country<span>*</span></div>
+                    <div>
+                      <select class="selectBox" name="country" id="country">
+                        <option>India</option>
+                        <option>China</option>
+                        <option>America</option>
+                      </select>
+                    </div>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <div>Mobile<span>*</span></div>
+                    <div>
+                      <input type="text" class="textBox" id="mobile" name="mobile" />
+                    </div>
+                  </li>
+                  <li>
+                    <div>Fax</div>
+                    <div>
+                      <input type="text" class="textBox" id="fax" name="fax" />
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <p id="step0commands"><a class="next" id="step0Next" href="#">Next <span>Professional Information</span><i class="icon-chevron-sign-right"></i></a></p>
+            </div>
+            <!-- /displayDiv -->
+            <div class="displayDiv">
+              <div class="title"><i class="icon-group"></i>Professional Information</div>
+              <div class="regsterDiv">
+                <ul>
+                  <li>
+                    <div>Title to be printed on certificate <span>*</span></div>
+                    <div>
+                      <input type="text" class="textBox" id="printcert" name="printcert"/>
+                    </div>
+                  </li>
+                  <li>
+                    <div>Title to be printed on certificate confirmation <span>*</span></div>
+                    <div>
+                      <input type="text" class="textBox" id="printCertConfirm" name="printCertConfirm"/>
+                    </div>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <div>Company/Organization<span>*</span></div>
+                    <div>
+                      <input type="text" class="textBox" id="organization" name="organization" />
+                    </div>
+                  </li>
+                  <li>
+                    <div>Professional Designation <span>*</span></div>
+                    <div>
+                      <select class="selectBox" name="profDesignation" id="profDesignation">
+                        <option value="DR">DR</option>
+                        <option value="MD">MD</option>
+                        <option value="LPN">LPN</option>
+                        <option value="ESTH">ESTH</option>
+                        <option value="DDS">DDS</option>
+                        <option value="DO">DO</option>
+                        <option value="RN">RN</option>
+                        <option value="LVN">LVN</option>
+                        <option value="NP">NP</option>
+                        <option value="PA">PA</option>
+                        <option value="DMD">DMD</option>
+                        <option value="N/A">N/A</option>
+                      </select>
+                    </div>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <div>Medical License Number </div>
+                    <div>
+                      <input type="text" class="textBox" id="license" name="license" />
+                    </div>
+                  </li>
+                  <li>
+                    <div>Expiry Date</div>
+                    <div>
+                      <input type="text" class="textBox" id="expDate" name="expDate" />
+                    </div>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <div>Country Issued </div>
+                    <div>
+                      <select class="selectBox" name="countryIssued" id="countryIssued">
+                        <option>India</option>
+                        <option>China</option>
+                        <option>America</option>
+                      </select>
+                    </div>
+                  </li>
+                  <li>
+                    <div>Attach medical license
+                      <label>(max upload size 64Mb)</label>
+                    </div>
+                    <div>
+                      <input type="file" class="fileBox" id="medicalLicense" name="medicalLicense" />
+                    </div>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <div>Field of practice</div>
+                    <div>
+                      <select class="selectBox" name="pracitce" id="pracitce">
+                        <option value="Aesthetic Medicine">Aesthetic Medicine</option>
+                        <option value="Aesthetic Surgery">Aesthetic Surgery</option>
+                        <option value="Both">Both</option>
+                      </select>
+                    </div>
+                  </li>
+                  <li>
+                    <div>If yes, specify practicing for no. of years</div>
+                    <div>
+                      <select class="selectBox" name="practiceYear" id="practiceYear">
+                        <option value="Less than a year">Less than a year</option>
+                        <option value="1-5 years">1-5 years</option>
+                        <option value="More than 5 years">More than 5 years</option>
+                      </select>
+                    </div>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <div>Email<span>*</span></div>
+                    <div>
+                      <input type="text" class="textBox" id="email" name="email"/>
+                    </div>
+                  </li>
+                  <li>
+                    <div>Username<span>*</span></div>
+                    <div>
+                      <input type="text" class="textBox" id="username1" name="username1"/>
+                    </div>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <div>Password<span>*</span></div>
+                    <div>
+                      <input type="password" class="textBox" id="password1" name="password1"/>
+                    </div>
+                  </li>
+                  <li>
+                    <div>Confirm Password<span>*</span></div>
+                    <div>
+                      <input type="password" class="textBox" id="Cpassword" name="Cpassword"/>
+                    </div>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <div>Website</div>
+                    <div>
+                      <input type="text" class="textBox" id="website" name="website" />
+                    </div>
+                  </li>
+                  <li>
+                    <div>Dietary Requirements</div>
+                    <div>
+                      <input type="text" class="textBox" id="dietaryRequirements" name="dietaryRequirements" />
+                    </div>
+                  </li>
+                </ul>
+                <ul>
+                  <li class="checkBoxes">
+                    <div>How did you hear about us</div>
+                    <div>
+                      <label class="inlineLbl">
+                        <input type="checkBox" name="inlineCheckbox1" value="Internet research" >
+                        Internet research </label>
+                      <label class="inlineLbl">
+                        <input type="checkBox" name="inlineCheckbox1" value="AAA email" >
+                        AAA email </label>
+                      <br>
+                      <label class="inlineLbl">
+                        <input type="checkBox" name="inlineCheckbox1" value="Facebook" >
+                        Facebook </label>
+                      <label class="inlineLbl">
+                        <input type="checkBox" name="inlineCheckbox1" value="LinkedIn" >
+                        LinkedIn </label>
+                      <label class="inlineLbl">
+                        <input type="checkBox" name="inlineCheckbox1" value="Advertisement" >
+                        Advertisement </label>
+                      <label class="inlineLbl">
+                        <input type="checkBox" name="inlineCheckbox1" value="Colleague referral" >
+                        Colleague referral </label>
+                      <label class="inlineLbl">
+                        <input type="checkBox" name="inlineCheckbox1" value="Other" >
+                        Other </label>
+                    </div>
+                  </li>
+                  <li class="capthcaDiv">
+                    <div>Security Code</div>
+                    <div>
+                      <input type="text" class="textBox" id="captcha" name="captcha" />
+                      <span><img src="images/captcha.png" alt="captcha" /></span> </div>
+                  </li>
+                </ul>
+              </div>
+              <p id="step1commands"> <a class="next" id="step1Next" href="#">Next <span>Registration Information</span><i class="icon-chevron-sign-right"></i></a> <a class="prev" id="step1Prev" href="#">Back <span>Personal Information</span><i class="icon-chevron-sign-left"></i></a> </p>
+            </div>
+            <!-- /displayDiv -->
+            
+            <div class="displayDiv">
+              <div class="title"><i class="icon-file-text-alt"></i>Registration Information - Select Membership Categories</div>
+              <div class="regInfo">
+                <ul>
+                  <li>
+                    <h3>Associated Member</h3>
+                    <p>Opened to qualified Licensed Medical Doctors regardless of specialty.</p>
+                    <h4>Membership Fees: <strong>$150</strong></h4>
+                    <label>Pay Now
+                      <input type="radio" name="paynow">
+                    </label>
+                  </li>
+                  <li>
+                    <h3>Fellow Member</h3>
+                    <p>In order to obtain Fellow member status, Member must be Associate member for two years and complete Step 1 Course in Aesthetic Medicine and Step 2 Course in Aestheic Medicine. </p>
+                    <h4>Membership Fees: <strong>$350</strong></h4>
+                    <label>Pay Now
+                      <input type="radio" name="paynow">
+                    </label>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <h3>Residents</h3>
+                    <p>Opened to residents and Medical School/College diplomats.</p>
+                    <h4>Membership Fees: <strong>$100</strong></h4>
+                    <label>Pay Now
+                      <input type="radio" name="paynow">
+                    </label>
+                  </li>
+                  <li>
+                    <h3>Member</h3>
+                    <p>Opened to licesed nurses, aesthetic nurses, licensed aestheticians, hair technicians, surgical assistants, physician assistants, nurses practitioners.</p>
+                    <h4>Membership Fees: <strong>$75</strong></h4>
+                    <label>Pay Now
+                      <input type="radio" name="paynow">
+                    </label>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <h3>Associated Member</h3>
+                    <p>Opened to qualified Licensed Medical Doctors regardless of specialty.</p>
+                    <h4>Membership Fees: <strong>$150</strong></h4>
+                    <label>Pay Now
+                      <input type="radio" name="paynow">
+                    </label>
+                  </li>
+                  <li>
+                    <h3>Fellow Member</h3>
+                    <p>In order to obtain Fellow member status, Member must be Associate member for two years and complete Step 1 Course in Aesthetic Medicine and Step 2 Course in Aestheic Medicine. </p>
+                    <h4>Membership Fees: <strong>$350</strong></h4>
+                    <label>Pay Now
+                      <input type="radio" name="paynow">
+                    </label>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <h3>Residents</h3>
+                    <p>Opened to residents and Medical School/College diplomats.</p>
+                    <h4>Membership Fees: <strong>$100</strong></h4>
+                    <label>Pay Now
+                      <input type="radio" name="paynow">
+                    </label>
+                  </li>
+                  <li>
+                    <h3>Member</h3>
+                    <p>Opened to licesed nurses, aesthetic nurses, licensed aestheticians, hair technicians, surgical assistants, physician assistants, nurses practitioners.</p>
+                    <h4>Membership Fees: <strong>$75</strong></h4>
+                    <label>Pay Now
+                      <input type="radio" name="paynow">
+                    </label>
+                  </li>
+                </ul>
+              </div>
+              <p id="step2commands"> <a class="next" id="step2Next" href="#">Next <span>Payment</span><i class="icon-chevron-sign-right"></i></a> <a class="prev" id="step2Prev" href="#">Back <span>Professional Information</span><i class="icon-chevron-sign-left"></i></a></p>
+            </div>
+            <!-- /displayDiv -->
+            
+            <div class="displayDiv">
+              <div class="title"><i class="icon-credit-card"></i>Payment</div>
+              <div class="payment">
+                <h4>Your Total Amount: $150</h4>
+                <dl>
+                  <dt>
+                    <input type="radio" name="radio" />
+                    <img src="images/inner/img-visa.png" alt="img-visa" />
+                    <label> Visa Credit Card</label>
+                  </dt>
+                  <dd>
+                    <input type="radio" name="radio" />
+                    <img src="images/inner/img-paypal.png" alt="img-paypal" />
+                    <label>Visa Paypal</label>
+                  </dd>
+                </dl>
+              </div>
+              <button type="submit" class="btn btnCharcol"><i class="icon-ok"></i>Submit</button>
+              <div class="clear"></div>
+              <p id="step3commands"> <a class="prev" id="step3Prev" href="#">Back <span>Registration Information</span><i class="icon-chevron-sign-left"></i></a></p>
+            </div>
+            <!-- /displayDiv -->
+            
+          </form>
+          <div class="clear"></div>
+        </div>
+        <!-- /registration --> 
+        
+      </div>
+    </div>
+    <!-- /innerContent --> 
+  </div>
+  <!-- /container -->
+  <footer>
+    <div class="pageWidth">
+      <div class="footerTop">
+        <div class="aboutCont wow fadeIn animated">
+          <h2 class="bdrTitle">About Us<span></span></h2>
+          <dl>
+            <dt><img src="images/logo-footer.png" alt="logo-footer" /></dt>
+            <dd>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin justo non odio molestie Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin justo non odio molestie, Lorem ipsum dolor sit amet.</p>
+            </dd>
+          </dl>
+        </div>
+        <div class="updates wow fadeIn animated">
+          <h2 class="bdrTitle">Get More Updates<span></span></h2>
+          <form>
+            <input type="text" placeholder="Enter Email" />
+            <button type="submit" value="" class="btn btnBlue">Subscribe</button>
+          </form>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <!-- /footerTop -->
+      <div class="footerMid">
+        <div class="footSec1">
+          <div class="contactInfo wow fadeInUp animated">
+            <div class="contactList">
+              <h2 class="bdrTitle">Keep In Touch<span></span></h2>
+              <ul>
+                <li> <i class="icon-map-marker"></i> </li>
+                <li>American Aesthetic Association<br />
+                  100 Overlook Center,<br />
+                  Second floor, Suite 2021,<br />
+                  Princeton, NJ 08540, USA </li>
+              </ul>
+              <ul>
+                <li> <i class="icon-phone"></i></li>
+                <li> Wanna talk?<br />
+                  Call us at <strong>+ 1(609)228-5103</strong> </li>
+              </ul>
+              <ul>
+                <li> <i class="icon-envelope"></i></li>
+                <li> Not a big talker?<br />
+                  Email us at <strong><a href="mailto:info@ameriaa.com">info@ameriaa.com</a></strong> </li>
+              </ul>
+            </div>
+            <!-- /contactList -->
+            <ul class="media">
+              <li> <a class="tooltips facebook" target="_blank" href="https://www.facebook.com/"> <i class="icon-facebook facebook"></i>
+                <div>Facebook<span></span></div>
+                </a> <a class="tooltips twitter" target="_blank" href="https://twitter.com"> <i class="icon-twitter twitter"></i>
+                <div>Twitter<span></span></div>
+                </a><a class="tooltips gplus" target="_blank" href="https://plus.google.com/"> <i class="icon-google-plus gplus"></i>
+                <div>Google Plus<span></span></div>
+                </a> <a class="tooltips linkedin" target="_blank" href="https://www.linkedin.com"> <i class="icon-linkedin linkedin"></i>
+                <div>Linkded In<span></span></div>
+                </a> <a class="tooltips youtube" target="_blank" href="http://www.youtube.com/"> <i class="icon-youtube youtube"></i>
+                <div>Youtube<span></span></div>
+                </a> </li>
+            </ul>
+          </div>
+          <div class="contact wow fadeInDown animated">
+            <h2 class="bdrTitle">Quick Contact<span></span></h2>
+            <form>
+              <ul>
+                <li>
+                  <div>
+                    <input type="text" name="name" placeholder="Name" />
+                  </div>
+                  <div>
+                    <input type="text" name="email" placeholder="Email" />
+                  </div>
+                </li>
+                <li>
+                  <textarea name="message" placeholder="Message"></textarea>
+                </li>
+                <li>
+                  <div>
+                    <input type="text" name="mobile" placeholder="Mobile Number" />
+                  </div>
+                  <div>
+                    <input type="text" name="captcha" placeholder="Enter Below Code" />
+                    <span class="captcha"><img src="images/captcha.png" alt="captcha" /></span> </div>
+                </li>
+              </ul>
+              <button type="submit" value="" class="btn btnBlue">Submit</button>
+            </form>
+          </div>
+        </div>
+        <!-- /footSec1 -->
+        <div class="footSec2 wow fadeInUp animated">
+          <h2 class="bdrTitle">Twitter Widget<span></span></h2>
+          <div class="tweets"> <i class="icon-twitter"></i> <span class="tweetArrow"></span>
+            <p>@Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit.</p>
+            <strong>17hours ago...</strong> </div>
+          <div class="tweets"> <i class="icon-twitter"></i> <span class="tweetArrow"></span>
+            <p>@Morbi sollicitudin justo non odio molestie, Lorem ipsum dolor sit amet.</p>
+            <strong>2days ago...</strong> </div>
+        </div>
+        <!-- /footSec2 -->
+        <div class="clear"></div>
+      </div>
+      <!-- /footerMid -->
+      
+      <div class="clear"></div>
+    </div>
+    <div class="footerBot">
+      <div class="pageWidth">
+        <p>&copy; 2015 American Aesthetic Association</p>
+        <a href="http://siriinnovations.com/" target="_blank"><img alt="siri" title="siri innovations" src="images/siri.png"></a>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <!-- /footerBot --> 
+  </footer>
+  <!-- /footer --> 
+  
+  <a href="javascript:void(0)" id="btn-scrollup"><i class="icon-angle-up"></i></a> </div>
+<!-- /wrapper --> 
+<script type="text/javascript" src="js/jquery.easing.min.js"></script> 
+<script type="text/javascript" src="js/animate.js"></script> 
+<script type="text/javascript" src="js/formwizard.js"></script> 
+<script type="text/javascript" src="js/validations.js"></script> 
+<script type="text/javascript" src="js/stickynavigation.js"></script> 
+<script type="text/javascript" src="js/menu.js"></script> 
+<script type="text/javascript" src="js/all.js"></script> 
+<script type="text/javascript">
+$(document).ready(function () {
+//menu
+	jQuery('header nav').meanmenu();
+//progress register form	
+	$("#SignupForm").formToWizard({ submitButton: 'SaveAccount' })
+});
+
+</script> 
+<script type="text/javascript">
+	$(document).ready(function() {
+		
+    $("#SignupForm").validate({
+	rules: {
+			title: {
+                required:true
+            },
+			firstname: {
+                required:true
+            },
+			fname: {
+                required:true
+            },
+			mobile: {
+                required: true,
+                number: true,
+                minlength: 10,
+                maxlength:12
+            },
+			email: {
+                required: true,
+                email: true
+            },
+			
+			
+	},		
+	messages: {
+            title: {
+                required:"Please select your title"
+            },
+			 firstname: {
+                required:"Please enter your first name"
+            },
+			fname: {
+                required:"Please enter your family name"
+            },
+			mobile: {
+                 required:"Please enter your mobile number"
+            },
+			email: {
+                required:"Please enter your email Id "
+            },
+			
+			
+        }
+    });	
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+/*behavior: url(PIE.htc);*/
+
+.offerBar p {
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.leftContent{
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#7cFFFFFF', endColorstr='#7cFFFFFF');
+}
+.testmonials li .userImg img{
+	behavior: url(PIE.htc);
+}
+.dashboardInfo {
+	*width:73.5%;
+}

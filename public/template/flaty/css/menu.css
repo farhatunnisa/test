@@ -1,0 +1,298 @@
+.menu {
+	width: 100%;
+}
+.menu .pageWidth {
+	position: relative;
+}
+.MenuDiv .pageWidth {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.menu nav li {
+	float: left;
+	list-style: none;
+	padding: 0;
+}
+.menu nav li a {
+	font: 400 14px/18px 'Titillium Web', sans-serif;
+	color: #FFF;
+	letter-spacing: 0;
+	margin-left: 2px;
+	padding: 14px 25px;
+	display: block;
+	text-transform: uppercase;
+}
+.menu nav li:hover a, .menu nav li a.active, .menu nav li:hover i {
+	background: #3d9cd6;
+}
+.menu li {
+	position: relative;
+	z-index: 99;
+}
+.menu nav ul ul {
+	display: none;
+	left: 2px;
+	padding: 8px 0 0;
+	position: absolute;
+	top: 40px;
+	width: 200px;
+}
+.menu nav ul li:hover ul {
+	display: block;
+}
+.menu nav ul ul.submenu li {
+	padding: 0;
+	display: block;
+	width: 100%;
+	border-top: 1px solid #3d9cd6;
+}
+.menu nav ul ul.submenu li:first-child {
+	border-top: 0;
+}
+.menu ul ul li a {
+	display: block;
+	padding: 9px 20px 9px 24px;
+	color: #fff !important;
+	margin: 0 !important;
+	background: #3d9cd6 !important;
+}
+.menu ul ul li a:hover, .menu ul ul li a.active {
+	background: #1b7fbd !important;
+}
+/* hide the link until viewport size is reached */
+a.meanmenu-reveal {
+	display: none;
+}
+.menu i {
+	color: #FFF;
+	font-size: 15px;
+	padding-left: 4px;
+}
+/* when under viewport size, .mean-container is added to body */
+.mean-container .mean-bar {
+	float: left;
+	width: 100%;
+	position: relative;
+	background: #1b7fbd;
+	padding: 4px 0;
+	min-height: 32px;
+	z-index: 999;
+}
+.mean-container a.meanmenu-reveal {
+	width: 22px;
+	height: 16px;
+	padding: 13px 13px 11px;
+	position: absolute;
+	top: -3px;
+	right: 0;
+	cursor: pointer;
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	text-indent: -9999em;
+	line-height: 22px;
+	font-size: 1px;
+	display: block;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: normal;
+}
+.mean-container a.meanmenu-reveal span {
+	display: block;
+	background: #fff;
+	height: 3px;
+	margin-top: 3px;
+}
+.mean-container .mean-nav {
+	float: left;
+	width: 100%;
+	background: #4bb5e2;
+	margin-top: 38px;
+}
+.mean-container .mean-nav ul {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	list-style-type: none;
+}
+.mean-container .mean-nav ul li {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+.mean-container .mean-nav ul li a {
+	display: block;
+	float: left;
+	width: 96%;
+	padding: 14px 2%;
+	margin: 0;
+	text-align: left;
+	color: #fff;
+	border-top: 1px solid #1b7fbd;
+	border-top: 1px solid rgba(255,255,255,0.2);
+	text-decoration: none;
+	font: normal 14px/16px 'Titillium Web', sans-serif;
+	letter-spacing: 0;
+	text-transform: uppercase;
+	background: #1b7fbd;
+}
+.mean-container .mean-nav ul li li a {
+	width: 90%;
+	padding: 1em 5%;
+	border-top: 1px solid #f1f1f1;
+	border-top: 1px solid rgba(255,255,255,0.25);
+	opacity: 0.75;
+	text-shadow: none !important;
+	visibility: visible;
+}
+.mean-container .mean-nav ul li.mean-last a {
+	border-bottom: none;
+	margin-bottom: 0;
+}
+.mean-container .mean-nav ul li li li a {
+	width: 70%;
+	padding: 1em 15%;
+}
+.mean-container .mean-nav ul li li li li a {
+	width: 60%;
+	padding: 1em 20%;
+}
+.mean-container .mean-nav ul li li li li li a {
+	width: 50%;
+	padding: 1em 25%;
+}
+.mean-container .mean-nav ul li a:hover, .mean-container .mean-nav ul li a.active {
+	background: #3d9cd6;
+}
+.mean-container .mean-nav ul li a.mean-expand {
+	margin-top: 1px;
+	width: 23px;
+	height: 23px;
+	padding: 10px !important;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+	font-weight: 600;
+	background: rgba(255,255,255,0.1);
+	border: none !important;
+	border-left: 1px solid rgba(255,255,255,0.4) !important;
+	border-bottom: 1px solid rgba(255,255,255,0.2) !important;
+}
+.mean-container .mean-nav ul li a.mean-expand:hover {
+	background: #09acef;
+}
+.mean-container .mean-push {
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	clear: both;
+}
+.mean-nav .wrapper {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+/* Fix for box sizing on Foundation Framework etc. */
+.mean-container .mean-bar, .mean-container .mean-bar * {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.mean-remove {
+	display: none !important;
+}
+#SecondMenu {
+	position: relative;
+	display: none;
+}
+#SecondMenu .mean-bar {
+	background: #706E6E;
+	margin: 5px 0 0;
+	padding: 0;
+	padding-top: 4px;
+}
+.MenuHeading {
+	color: #FFFFFF;
+	font-weight: bold;
+	left: 0;
+	padding-left: 12px;
+	position: absolute;
+	top: 18px;
+	z-index: 9999;
+}
+.MenuHeading i {
+	color: #FFF;
+	padding-right: 5px;
+}
+#SecondMenu .mean-nav {
+	background: #f5f5f5;
+	border: 1px solid #CCCCCC;
+	width: 99.7%;
+}
+#SecondMenu .mean-nav ul {
+	padding: 8px;
+}
+#SecondMenu .mean-nav ul li a {
+	font: bold 12px/14px Arial, Helvetica, sans-serif;
+	color: #555;
+	border: 0;
+	padding: 0;
+}
+#SecondMenu .mean-nav ul li a:hover, #SecondMenu .mean-nav ul li a:hover span, #SecondMenu .mean-nav ul li a.active {
+	color: #1ba1fc;
+}
+.sticky-navigation {
+	width: 100%;
+	z-index: 999;
+}
+.sticky-navigation .MenuDiv {
+	background: #1b7fbd;
+	
+}
+.logo-small {
+	float: left;
+	padding: 4px;
+	display: none;
+	padding-right: 25px;
+	margin-right: 10px;
+	background: url(../images/divider-menu.png) no-repeat right 0;
+}
+.MenuDiv nav ul ul.submenu li {
+	background: #40acda;
+}
+.MenuDiv nav li a {
+	padding: 15px 25px;
+}
+.navigation {
+	border-top: 1px solid #1b7fbd;
+	border-bottom: 1px solid #1b7fbd;
+}
+.navigationInner {
+	margin: 1px 0;
+	background: #1b7fbd;
+}
+
+
+#SecondMenu .mean-nav {
+	background: #f5f5f5;
+	border: 1px solid #CCCCCC;
+	width: 99.7%;
+}
+#SecondMenu .mean-nav ul {
+	padding: 2%;
+}
+#SecondMenu .mean-nav ul li a {
+	font: normal 14px/14px 'Titillium Web', sans-serif;
+	color: #555;
+	border: 0;
+	padding: 0;
+	background:none;
+	text-transform:none;
+}
+#SecondMenu .mean-nav ul li a:hover, #SecondMenu .mean-nav ul li a:hover span, #SecondMenu .mean-nav ul li a.active {
+	color: #1ba1fc;
+	background:none;
+}

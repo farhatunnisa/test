@@ -1,0 +1,104 @@
+[15-Dec-2014 19:42:53 asia/kolkata] PHP Fatal error:  Call to undefined method Login::?forgotEmail=..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%afetc() in /home4/sifouin/public_html/dcard/siri-admin/core/Wrapper.php on line 108
+[15-Dec-2014 21:06:42 asia/kolkata] PHP Notice:  Undefined offset: 0 in /home4/sifouin/public_html/dcard/siri-admin/core/Wrapper.php on line 71
+[15-Dec-2014 21:06:42 asia/kolkata] PHP Fatal error:  Class name must be a valid object or a string in /home4/sifouin/public_html/dcard/siri-admin/core/Wrapper.php on line 99
+[15-Dec-2014 21:06:43 asia/kolkata] PHP Notice:  Undefined offset: 0 in /home4/sifouin/public_html/dcard/siri-admin/core/Wrapper.php on line 71
+[15-Dec-2014 21:06:43 asia/kolkata] PHP Fatal error:  Class name must be a valid object or a string in /home4/sifouin/public_html/dcard/siri-admin/core/Wrapper.php on line 99
+[15-Dec-2014 21:09:38 asia/kolkata] PHP Fatal error:  Call to undefined method Login::.bzr() in /home4/sifouin/public_html/dcard/siri-admin/core/Wrapper.php on line 108
+[15-Dec-2014 21:09:38 asia/kolkata] PHP Fatal error:  Call to undefined method Login::CVS() in /home4/sifouin/public_html/dcard/siri-admin/core/Wrapper.php on line 108
+[15-Dec-2014 21:09:38 asia/kolkata] PHP Fatal error:  Call to undefined method Login::_mmServerScripts() in /home4/sifouin/public_html/dcard/siri-admin/core/Wrapper.php on line 108
+[15-Dec-2014 21:09:39 asia/kolkata] PHP Fatal error:  Call to undefined method Login::.git() in /home4/sifouin/public_html/dcard/siri-admin/core/Wrapper.php on line 108
+[15-Dec-2014 21:09:39 asia/kolkata] PHP Fatal error:  Call to undefined method Login::_mmServerScripts() in /home4/sifouin/public_html/dcard/siri-admin/core/Wrapper.php on line 108
+[15-Dec-2014 21:09:39 asia/kolkata] PHP Fatal error:  Call to undefined method Login::.idea() in /home4/sifouin/public_html/dcard/siri-admin/core/Wrapper.php on line 108
+[15-Dec-2014 21:09:39 asia/kolkata] PHP Fatal error:  Call to undefined method Login::.hg() in /home4/sifouin/public_html/dcard/siri-admin/core/Wrapper.php on line 108
+[15-Dec-2014 21:09:40 asia/kolkata] PHP Fatal error:  Call to undefined method Login::config() in /home4/sifouin/public_html/dcard/siri-admin/core/Wrapper.php on line 108
+[15-Dec-2014 21:09:40 asia/kolkata] PHP Fatal error:  Call to undefined method Login::.svn() in /home4/sifouin/public_html/dcard/siri-admin/core/Wrapper.php on line 108
+[16-Dec-2014 14:11:59 asia/kolkata] PHP Notice:  Undefined index: state in /home4/sifouin/public_html/dcard/siri-admin/modules/customer/models/customer_model.php on line 115
+[16-Dec-2014 16:31:10 asia/kolkata] PHP Warning:  Missing argument 1 for Merchant::edit(), called in /home4/sifouin/public_html/dcard/siri-admin/core/Wrapper.php on line 110 and defined in /home4/sifouin/public_html/dcard/siri-admin/modules/merchant/controllers/merchant.php on line 80
+[16-Dec-2014 16:31:10 asia/kolkata] PHP Notice:  Undefined variable: id in /home4/sifouin/public_html/dcard/siri-admin/modules/merchant/controllers/merchant.php on line 88
+[17-Dec-2014 10:34:04 asia/kolkata] PHP Notice:  Undefined index: merchantId in /home4/sifouin/public_html/dcard/siri-admin/modules/customer/models/customer_model.php on line 324
+[17-Dec-2014 10:34:04 asia/kolkata] PHP Notice:  Undefined index: quantity in /home4/sifouin/public_html/dcard/siri-admin/modules/customer/models/customer_model.php on line 326
+[17-Dec-2014 10:34:04 asia/kolkata] PHP Warning:  Invalid argument supplied for foreach() in /home4/sifouin/public_html/dcard/siri-admin/modules/customer/models/customer_model.php on line 326
+[17-Dec-2014 10:34:04 asia/kolkata] PHP Notice:  Undefined variable: lastInsId in /home4/sifouin/public_html/dcard/siri-admin/modules/customer/models/customer_model.php on line 339
+[17-Dec-2014 11:07:14 asia/kolkata] PHP Parse error:  syntax error, unexpected end of file in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/dashboard.php on line 212
+[17-Dec-2014 16:37:03 asia/kolkata] PHP Warning:  Missing argument 1 for dealOrders::details(), called in /home4/sifouin/public_html/dcard/siri-admin/core/Wrapper.php on line 110 and defined in /home4/sifouin/public_html/dcard/siri-admin/modules/dealOrders/controllers/dealOrders.php on line 58
+[17-Dec-2014 16:37:03 asia/kolkata] PHP Notice:  Undefined variable: id in /home4/sifouin/public_html/dcard/siri-admin/modules/dealOrders/controllers/dealOrders.php on line 69
+[17-Dec-2014 18:03:42 asia/kolkata] PHP Fatal error:  Call to undefined method assigncoupons_model::addAssigncoupon() in /home4/sifouin/public_html/dcard/siri-admin/modules/assigncoupons/controllers/assigncoupons.php on line 80
+[17-Dec-2014 18:06:37 asia/kolkata] PHP Fatal error:  Call to undefined method assigncoupons_model::addAssigncoupon() in /home4/sifouin/public_html/dcard/siri-admin/modules/assigncoupons/controllers/assigncoupons.php on line 80
+[17-Dec-2014 18:06:52 asia/kolkata] PHP Fatal error:  Call to undefined method assigncoupons_model::addAssigncoupon() in /home4/sifouin/public_html/dcard/siri-admin/modules/assigncoupons/controllers/assigncoupons.php on line 80
+[17-Dec-2014 18:07:00 asia/kolkata] PHP Fatal error:  Call to undefined method assigncoupons_model::addAssigncoupon() in /home4/sifouin/public_html/dcard/siri-admin/modules/assigncoupons/controllers/assigncoupons.php on line 80
+[18-Dec-2014 10:37:25 asia/kolkata] PHP Notice:  Undefined index: category_name in /home4/sifouin/public_html/dcard/siri-admin/modules/occupation/controllers/occupation.php on line 115
+[18-Dec-2014 10:41:59 asia/kolkata] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home4/sifouin/public_html/dcard/siri-admin/modules/privileges/views/privileges_view.php on line 30
+[18-Dec-2014 11:51:22 asia/kolkata] PHP Notice:  Undefined index: landmark in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/views/offer_add.php on line 83
+[18-Dec-2014 11:51:22 asia/kolkata] PHP Notice:  Undefined index: landmark in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/views/offer_edit.php on line 89
+[18-Dec-2014 11:51:57 asia/kolkata] PHP Notice:  Undefined index: landmark in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/views/offer_add.php on line 83
+[18-Dec-2014 14:19:50 asia/kolkata] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 170
+[18-Dec-2014 14:19:50 asia/kolkata] PHP Warning:  array_intersect(): Argument #2 is not an array in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 205
+[18-Dec-2014 14:19:50 asia/kolkata] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 232
+[18-Dec-2014 14:19:50 asia/kolkata] PHP Warning:  array_intersect(): Argument #2 is not an array in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 250
+[18-Dec-2014 14:19:50 asia/kolkata] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/dashboard.php on line 18
+[18-Dec-2014 15:17:47 asia/kolkata] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 170
+[18-Dec-2014 15:17:47 asia/kolkata] PHP Warning:  array_intersect(): Argument #2 is not an array in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 205
+[18-Dec-2014 15:17:47 asia/kolkata] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 232
+[18-Dec-2014 15:17:47 asia/kolkata] PHP Warning:  array_intersect(): Argument #2 is not an array in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 250
+[18-Dec-2014 17:47:30 asia/kolkata] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 170
+[18-Dec-2014 17:47:30 asia/kolkata] PHP Warning:  array_intersect(): Argument #2 is not an array in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 205
+[18-Dec-2014 17:47:30 asia/kolkata] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 232
+[18-Dec-2014 17:47:30 asia/kolkata] PHP Warning:  array_intersect(): Argument #2 is not an array in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 250
+[18-Dec-2014 20:31:23 asia/kolkata] PHP Notice:  Undefined index: landmark in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/views/offer_edit.php on line 89
+[19-Dec-2014 09:36:07 asia/kolkata] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 170
+[19-Dec-2014 09:36:07 asia/kolkata] PHP Warning:  array_intersect(): Argument #2 is not an array in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 205
+[19-Dec-2014 09:36:07 asia/kolkata] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 232
+[19-Dec-2014 09:36:07 asia/kolkata] PHP Warning:  array_intersect(): Argument #2 is not an array in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 250
+[19-Dec-2014 11:35:28 asia/kolkata] PHP Notice:  Undefined index: landmark in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/views/offer_add.php on line 83
+[19-Dec-2014 11:48:27 asia/kolkata] PHP Notice:  Undefined index: landmark in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/views/offer_add.php on line 83
+[19-Dec-2014 11:49:52 asia/kolkata] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 170
+[19-Dec-2014 11:49:52 asia/kolkata] PHP Warning:  array_intersect(): Argument #2 is not an array in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 205
+[19-Dec-2014 11:49:52 asia/kolkata] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 232
+[19-Dec-2014 11:49:52 asia/kolkata] PHP Warning:  array_intersect(): Argument #2 is not an array in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 250
+[19-Dec-2014 14:26:42 asia/kolkata] PHP Notice:  Undefined index: landmark in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/views/offer_edit.php on line 89
+[19-Dec-2014 14:37:24 asia/kolkata] PHP Notice:  Undefined index: landmark in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/views/offer_add.php on line 83
+[19-Dec-2014 14:37:31 asia/kolkata] PHP Notice:  Undefined index: landmark in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/views/offer_add.php on line 83
+[19-Dec-2014 14:37:38 asia/kolkata] PHP Notice:  Undefined index: landmark in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/views/offer_edit.php on line 89
+[19-Dec-2014 14:38:18 asia/kolkata] PHP Notice:  Undefined index: landmark in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/views/offer_edit.php on line 89
+[19-Dec-2014 14:48:24 asia/kolkata] PHP Notice:  Undefined index: landmark in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/views/offer_edit.php on line 89
+[19-Dec-2014 14:48:27 asia/kolkata] PHP Warning:  Missing argument 1 for Specialoffers::edit(), called in /home4/sifouin/public_html/dcard/siri-admin/core/Wrapper.php on line 110 and defined in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/controllers/specialoffers.php on line 172
+[19-Dec-2014 14:48:27 asia/kolkata] PHP Notice:  Undefined variable: id in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/controllers/specialoffers.php on line 184
+[19-Dec-2014 14:48:27 asia/kolkata] PHP Notice:  Undefined index: landmark in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/views/offer_edit.php on line 89
+[19-Dec-2014 14:48:37 asia/kolkata] PHP Warning:  Missing argument 1 for Specialoffers::edit(), called in /home4/sifouin/public_html/dcard/siri-admin/core/Wrapper.php on line 110 and defined in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/controllers/specialoffers.php on line 172
+[19-Dec-2014 14:48:37 asia/kolkata] PHP Notice:  Undefined variable: id in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/controllers/specialoffers.php on line 184
+[19-Dec-2014 14:48:37 asia/kolkata] PHP Notice:  Undefined index: landmark in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/views/offer_edit.php on line 89
+[19-Dec-2014 14:48:44 asia/kolkata] PHP Notice:  Undefined index: landmark in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/views/offer_edit.php on line 89
+[19-Dec-2014 14:48:48 asia/kolkata] PHP Notice:  Undefined index: landmark in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/views/offer_edit.php on line 89
+[19-Dec-2014 14:59:27 asia/kolkata] PHP Notice:  Undefined index: landmark in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/views/offer_edit.php on line 89
+[19-Dec-2014 15:18:36 asia/kolkata] PHP Notice:  Undefined index: landmark in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/views/offer_add.php on line 83
+[19-Dec-2014 15:19:04 asia/kolkata] PHP Notice:  Undefined index: landmark in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/views/offer_add.php on line 83
+[19-Dec-2014 15:19:18 asia/kolkata] PHP Notice:  Undefined index: landmark in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/views/offer_add.php on line 83
+[19-Dec-2014 15:20:09 asia/kolkata] PHP Notice:  Undefined index: landmark in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/views/offer_add.php on line 83
+[19-Dec-2014 15:21:18 asia/kolkata] PHP Notice:  Undefined index: landmark in /home4/sifouin/public_html/dcard/siri-admin/modules/specialoffers/views/offer_add.php on line 83
+[19-Dec-2014 15:22:48 asia/kolkata] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 170
+[19-Dec-2014 15:22:48 asia/kolkata] PHP Warning:  array_intersect(): Argument #2 is not an array in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 205
+[19-Dec-2014 15:22:48 asia/kolkata] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 232
+[19-Dec-2014 15:22:48 asia/kolkata] PHP Warning:  array_intersect(): Argument #2 is not an array in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 250
+[19-Dec-2014 15:28:03 asia/kolkata] PHP Notice:  Undefined property: View::$coupondetails in /home4/sifouin/public_html/dcard/siri-admin/modules/coupons/views/coupons_view.php on line 83
+[19-Dec-2014 15:28:03 asia/kolkata] PHP Warning:  Invalid argument supplied for foreach() in /home4/sifouin/public_html/dcard/siri-admin/modules/coupons/views/coupons_view.php on line 83
+[19-Dec-2014 15:28:20 asia/kolkata] PHP Notice:  Undefined property: View::$coupondetails in /home4/sifouin/public_html/dcard/siri-admin/modules/coupons/views/coupons_view.php on line 83
+[19-Dec-2014 15:28:20 asia/kolkata] PHP Warning:  Invalid argument supplied for foreach() in /home4/sifouin/public_html/dcard/siri-admin/modules/coupons/views/coupons_view.php on line 83
+[19-Dec-2014 15:35:41 asia/kolkata] PHP Fatal error:  Call to undefined method assigncoupons_model::addAssigncoupon() in /home4/sifouin/public_html/dcard/siri-admin/modules/assigncoupons/controllers/assigncoupons.php on line 80
+[19-Dec-2014 15:39:00 asia/kolkata] PHP Notice:  Undefined property: View::$coupondetails in /home4/sifouin/public_html/dcard/siri-admin/modules/coupons/views/coupons_view.php on line 83
+[19-Dec-2014 15:39:00 asia/kolkata] PHP Warning:  Invalid argument supplied for foreach() in /home4/sifouin/public_html/dcard/siri-admin/modules/coupons/views/coupons_view.php on line 83
+[19-Dec-2014 15:40:04 asia/kolkata] PHP Notice:  Undefined property: View::$coupondetails in /home4/sifouin/public_html/dcard/siri-admin/modules/coupons/views/coupons_view.php on line 83
+[19-Dec-2014 15:40:04 asia/kolkata] PHP Warning:  Invalid argument supplied for foreach() in /home4/sifouin/public_html/dcard/siri-admin/modules/coupons/views/coupons_view.php on line 83
+[19-Dec-2014 15:41:31 asia/kolkata] PHP Notice:  Undefined property: View::$coupondetails in /home4/sifouin/public_html/dcard/siri-admin/modules/coupons/views/coupons_view.php on line 83
+[19-Dec-2014 15:41:31 asia/kolkata] PHP Warning:  Invalid argument supplied for foreach() in /home4/sifouin/public_html/dcard/siri-admin/modules/coupons/views/coupons_view.php on line 83
+[19-Dec-2014 16:06:02 asia/kolkata] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 170
+[19-Dec-2014 16:06:02 asia/kolkata] PHP Warning:  array_intersect(): Argument #2 is not an array in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 205
+[19-Dec-2014 16:06:02 asia/kolkata] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 232
+[19-Dec-2014 16:06:02 asia/kolkata] PHP Warning:  array_intersect(): Argument #2 is not an array in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 250
+[19-Dec-2014 16:44:23 asia/kolkata] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 170
+[19-Dec-2014 16:44:23 asia/kolkata] PHP Warning:  array_intersect(): Argument #2 is not an array in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 205
+[19-Dec-2014 16:44:23 asia/kolkata] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 232
+[19-Dec-2014 16:44:23 asia/kolkata] PHP Warning:  array_intersect(): Argument #2 is not an array in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 250
+[19-Dec-2014 16:56:47 asia/kolkata] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 170
+[19-Dec-2014 16:56:47 asia/kolkata] PHP Warning:  array_intersect(): Argument #2 is not an array in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 205
+[19-Dec-2014 16:56:47 asia/kolkata] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 232
+[19-Dec-2014 16:56:47 asia/kolkata] PHP Warning:  array_intersect(): Argument #2 is not an array in /home4/sifouin/public_html/dcard/siri-admin/public/template/flaty/header.php on line 250
